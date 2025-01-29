@@ -29,6 +29,9 @@ def load_saved_settings(app):
     app.keep_playing_state = app.settings.get("keep_playing", False)
     app.keep_playing.set(app.keep_playing_state)
     
+    app.app_minimized_state = app.settings.get("app_minimized", False)
+    app.app_minimized.set(app.app_minimized_state)
+    
     if app.keep_playing_state:
         start_keep_playing_thread(app)
 
@@ -75,6 +78,7 @@ def toggle_selection(app, event):
 # Save the selected settings including keep playing state and selected devices
 def save_selected_settings(app):
     app.settings["keep_playing"] = app.keep_playing.get()
+    app.settings["app_minimized"] = app.app_minimized.get()
     app.settings["selected_devices"] = app.selected_devices
     save_settings(app.settings)
 
@@ -96,6 +100,10 @@ def stop_selected_devices(selected_devices):
     for device in selected_devices:
         debug_print(f"Sending stop command to {device['name']} ({device['ip']})")
         stop(device['ip'])
+
+def toggle_minimized(app):
+    app.settings["app_minimized"] = app.app_minimized.get()
+    save_settings(app.settings)
 
 # Toggle the keep playing state and start/stop the keep playing thread
 def toggle_keep_playing(app):
