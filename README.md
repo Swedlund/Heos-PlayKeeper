@@ -1,4 +1,4 @@
-# Heos PlayKeeper
+# <img src="https://github.com/Swedlund/Heos-PlayKeeper/blob/main/images/icon/icon.png?raw=true" alt="Screenshot" width="40"/> Heos PlayKeeper
  Heos PlayKeeper is a user-friendly mini app designed to control HEOS devices. With features like device discovery, multi-device selection, playback control, and continuous playback mode.
 
-![Screenshor of v0.1](https://private-user-images.githubusercontent.com/7113307/407453241-a30b79dd-326a-459a-a634-f333381ac320.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgwOTEwNzMsIm5iZiI6MTczODA5MDc3MywicGF0aCI6Ii83MTEzMzA3LzQwNzQ1MzI0MS1hMzBiNzlkZC0zMjZhLTQ1OWEtYTYzNC1mMzMzMzgxYWMzMjAuUE5HP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDEyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAxMjhUMTg1OTMzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZGMzY2I4ZGNhOTgyOGY3ZTBjN2RjZWM1ZjFhNWZjYTljYTM5MzVmNmQxOTdlZGVmZTU3OWQ1OWY2NmM4ZmI0ZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.XshmvPUCK5W4XNdU7K0nli-6mtUmnZbzPAPys3tOCSY)
+<img src="https://github.com/Swedlund/Heos-PlayKeeper/blob/main/images/screenshots/v02.PNG?raw=true" alt="Screenshot" width="200"/> 
